@@ -46,3 +46,31 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* nate's solution */
+
+.header{
+  padding:8px;
+  display: flex;
+  /*separated the 4 items into two divs to space*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side{
+  display: flex;
+  gap:16px;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  gap:16px;
+  padding:0px;
+}
+
+.right-side{
+  display: flex;
+  gap:16px;
+  align-items: center;
+}
